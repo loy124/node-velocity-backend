@@ -12,6 +12,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 // DB연동해서 값 가져오기
+app.get("/", (req, res) => {
+  return res.json({hello:"world"});
+})
 app.get("api/chart", (req, res) => {});
 
 // DB연동해서 10초 간격으로 데이터 뿌려주기
