@@ -46,7 +46,7 @@ io.on("connection", async function (socket) {
     // console.log(arr);
     socket.emit("chat", {first:randomArray(), second:randomArray()});
     
-  }, 5000);
+  }, 1000);
   // setInterval(()=>{
   //     socket.on("chart" , function(){
   //         // DB를 끌어와서 받아서 보낸다 10초간격으로

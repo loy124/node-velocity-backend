@@ -1,6 +1,12 @@
 function randomChart() {
-  const x = Math.floor(Math.random() * 90) + 1;
-  const y = Math.floor(Math.random() * 90) + 1;
+  let xt = Math.floor(Math.random() * 40) + 1;
+  let yt = Math.floor(Math.random() * 40) + 1;
+  if (xt >=10 && xt <= 12) {
+    yt += Math.floor(Math.random() * 50) + 20;
+  }
+  const x = xt;
+  const y = yt;
+
 //   console.log(x, y);
   return { x, y };
 }

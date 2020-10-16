@@ -3,21 +3,21 @@
     "username": "loy124",
     "password": "leesj0813",
     "database": "sensor",
-    "host": "127.0.0.1",
+    "host": "13.209.4.170",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": null,
     "database": "database_test",
-    "host": "127.0.0.1",
+    "host": "13.209.4.170",
     "dialect": "mysql"
   },
   "production": {
     "username": "loy124",
     "password": "leesj0813",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "13.209.4.170",
     "dialect": "mysql"
   }
 }
