@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
-const PORT = 8001;
+const PORT = 80;
 const io = require("socket.io")(server);
 const cors = require("cors");
 const {randomChart, randomArray} = require("./util/random");
